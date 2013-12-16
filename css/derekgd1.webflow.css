@@ -1,6 +1,6 @@
 body {
   background-color: rgba(0, 0, 0, 0);
-  font-family: Lato, sans-serif;
+  font-family: futura, sans-serif;
   color: #777;
   font-size: 14px;
   line-height: 21px;
@@ -36,12 +36,13 @@ h3 {
   margin-left: 0px;
   padding-bottom: 15px;
   color: white;
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 50px;
+  line-height: 51.2px;
   font-weight: 300;
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 4.2px;
   text-transform: uppercase;
+  text-align: center;
 }
 h4 {
   margin: 10px 0px;
@@ -115,28 +116,22 @@ p {
 .section {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #513200;
+  background-color: #140505;
 }
 .section.header {
   padding-top: 0px;
   padding-bottom: 218px;
-  background-image: url(../images/P1060393.JPG);
-  background-position: 50% 50%;
-  background-size: 20px;
-  background-repeat: repeat repeat;
-  background-attachment: fixed;
+  background-color: #140505;
 }
 .section.dark {
   border-top: 1px black;
   border-bottom: 1px black;
   background-color: #140505;
-  background-image: url(../images/blackleather.JPG);
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 .section.dark.web {
-  background-image: none;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
